@@ -1,0 +1,6 @@
+[install.lockfile]
+print = "yarn"
+
+[test]
+preload = ['./src/__tests__/preload']
+
