@@ -16,6 +16,9 @@
     "lint": "biome check --fix",
     "lint:ci": "biome ci --reporter=github"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "lodash-es": "^4.17.21",
     "tiny-invariant": "^1.3.3",
