@@ -32,6 +32,7 @@
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.10.2",
     "commander": "^12.1.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "memfs": "^4.15.1",
     "tsc-alias": "^1.8.10",
     "typescript": "^5.7.2"
