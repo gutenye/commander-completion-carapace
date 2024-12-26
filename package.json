@@ -1,6 +1,6 @@
 {
   "name": "commander-completion-carapace",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "completion support for commander.js using carapace",
   "keywards": ["commander", "completion", "carapace"],
   "license": "MIT",
