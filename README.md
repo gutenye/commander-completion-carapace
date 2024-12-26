@@ -11,7 +11,8 @@
 
 ## 🌟 Features
 
-- ⌘ **Multiple Shells Supports**: Works with Bash, Zsh, Fish, Nushell, and more, ensuring compatibility with a variety of environments.
+- ⌘ **Multiple Shells Support**: Works with Bash, Zsh, Fish, Nushell, and more.
+- 🚄 **Blazing Fast Completion**: Experience instantaneous completion with no delays.
 - 🔗 **Carapace Integration**: Unlock all the powerful features of Carapace, including advanced shell completions.
 - 🧑‍💻 **Effortless Integration**: Easily add completion support to your Commander.js based CLI app.
 
