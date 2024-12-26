@@ -10,7 +10,7 @@
     "bun": "./src/index.ts",
     "default": "./build/index.js"
   },
-  "files": ["src", "build", "!**/__tests__"],
+  "files": ["src", "tsconfig.json", "build", "!**/__tests__"],
   "scripts": {
     "test": "bun test",
     "lint": "biome check --fix",
