@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.3...v1.0.4) (2024-12-26)
+
+### Bug Fixes
+
+* **release:** publish tsconfig.json ([f1709ac](https://github.com/gutenye/commander-completion-carapace/commit/f1709acefd70dca0f4055a8545ff6391714c1c96))
+
 ## [1.0.3](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.2...v1.0.3) (2024-12-26)
 
 ### Bug Fixes
