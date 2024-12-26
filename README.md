@@ -2,7 +2,7 @@
 
 [![Stars](https://img.shields.io/github/stars/gutenye/commander-completion-carapace?style=social)](https://github.com/gutenye/commander-completion-carapace) [![NPM Version](https://img.shields.io/npm/v/@gutenye/commander-completion-carapace)](https://www.npmjs.com/package/@gutenye/commander-completion-carapace) [![License](https://img.shields.io/github/license/gutenye/commander-completion-carapace?color=blue)](https://github.com/gutenye/commander-completion-carapace/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)](https://github.com/gutenye/commander-completion-carapace#-contribute)
 
-> Effortlessly add intelligent auto-completion support to your [Commander.js](https://github.com/tj/commander.js) CLI app using [Carapace](https://github.com/carapace-sh/carapace-bin).
+> Effortlessly add intelligent autocomplete support to your [Commander.js](https://github.com/tj/commander.js) CLI app using [Carapace](https://github.com/carapace-sh/carapace-bin).
 > It works with a wide range of shells, making your CLI tools more intuitive and user-friendly.
 
 **Show your ❤️ and support by starring this project and following the author, [Guten Ye](https://github.com/gutenye)!**
