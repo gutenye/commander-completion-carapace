@@ -25,7 +25,7 @@ describe('buildSpecText', () => {
       .option('-b, --string-b [values...]', 'StringB', ['1'])
       .addOption(new Option('--year <year>', 'Year').choices(['2001', '2002']))
       .completion({
-        flags: {
+        flag: {
           option: ['$files'],
         },
         positional: [null, null, ['$files']],
@@ -63,10 +63,10 @@ commands:
         - - arg2A
           - arg2B
         - - $files
-      flags:
+      flag:
         year:
-          - 2001
-          - 2002
+          - "2001"
+          - "2002"
         option:
           - $files
       positionalany:
@@ -121,13 +121,13 @@ commands:
     expect(text).toEqual(
       `
 name: test
+commands:
+  - name: sub1
 flags:
   --bool: ""
 completion:
   positional:
     - - Arg1
-commands:
-  - name: sub1
 `.trimStart(),
     )
   })

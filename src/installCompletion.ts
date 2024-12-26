@@ -88,17 +88,17 @@ function buildSpec(
   }
   for (const option of command.options) {
     spec.flags = spec.flags || {}
-    let flags = [option.short, option.long].filter(Boolean).join(', ')
+    let flag = [option.short, option.long].filter(Boolean).join(', ')
     if (!option.isBoolean) {
-      flags += '='
+      flag += '='
     }
     if (option.required) {
-      flags += '=!'
+      flag += '=!'
     }
     if (option.optional) {
-      flags += '=?'
+      flag += '=?'
     }
-    spec.flags[flags] = option.description
+    spec.flags[flag] = option.description
     if (option.argChoices) {
       completion.flag = completion.flag || {}
       completion.flag[option.name()] = option.argChoices
