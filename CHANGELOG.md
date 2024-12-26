@@ -1,3 +1,9 @@
+## [1.0.6](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.5...v1.0.6) (2024-12-26)
+
+### Bug Fixes
+
+* **release:** more keywords ([a4037fb](https://github.com/gutenye/commander-completion-carapace/commit/a4037fbd0f21746c1e36f5c0d3376b8b3511065b))
+
 ## [1.0.5](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.4...v1.0.5) (2024-12-26)
 
 ### Bug Fixes
