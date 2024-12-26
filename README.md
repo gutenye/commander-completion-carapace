@@ -30,7 +30,7 @@ bun add @gutenye/commander-completion-carapace commander
 Now, integrate completion support into your Commander.js application by adding the following code:
 
 ```ts
-import { program, installCompletion, Option } from '@gutenye/commander-completion-carapace'
+import { program, Option } from '@gutenye/commander-completion-carapace'
 
 program
   .name('hello')
