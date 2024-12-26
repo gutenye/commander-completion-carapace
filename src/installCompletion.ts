@@ -1,10 +1,10 @@
 import { merge } from 'lodash-es'
 import invariant from 'tiny-invariant'
 import * as yaml from 'yaml'
-import { program as defaultProgram } from '#/NewCommand.js'
-import { CARAPACE_SPECS_DIR } from '#/constants.js'
-import type { Carapace, NewCommand } from '#/types/index.js'
-import { fs, logger, mergeWithoutNull, question } from '#/utils/index.js'
+import { program as defaultProgram } from '#/NewCommand'
+import { CARAPACE_SPECS_DIR } from '#/constants'
+import type { Carapace, NewCommand } from '#/types/index'
+import { fs, logger, mergeWithoutNull, question } from '#/utils/index'
 
 export async function installCompletion(program = defaultProgram) {
   if (!program._installCompletion) {

@@ -6,6 +6,9 @@
     "sourceMap": true,
     "declaration": true
   },
+  "tsc-alias": {
+    "resolveFullPaths": true
+  },
   "include": ["src"],
   "exclude": ["**/__tests__"]
 }

@@ -1,2 +1,2 @@
-export * from './installCompletion.js'
-export * from './NewCommand.js'
+export * from './installCompletion'
+export * from './NewCommand'
