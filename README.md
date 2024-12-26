@@ -7,7 +7,7 @@
 
 **Show your ❤️ and support by starring this project and following the author, [Guten Ye](https://github.com/gutenye)!**
 
-[![screenrecording](https://asciinema.org/a/GyJv0xAaZqGp9k1TFNcnaiB9y.svg)](https://asciinema.org/a/GyJv0xAaZqGp9k1TFNcnaiB9y)
+<a target="_blank" href="https://asciinema.org/a/GyJv0xAaZqGp9k1TFNcnaiB9y">![screenrecording](https://asciinema.org/a/GyJv0xAaZqGp9k1TFNcnaiB9y.svg)</a>
 
 ## 🌟 Features
 
