@@ -17,9 +17,9 @@
 
 ## 🚀 Getting Started
 
-### 1️⃣ Install 
+### 1️⃣ Install
 
-First, make sure [Carapace](https://github.com/carapace-sh/carapace-bin) is installed, as it powers the completion functionality:
+First, make sure Carapace is installed, as it powers the completion functionality:
 
 ```sh
 bun add @gutenye/commander-completion-carapace commander
