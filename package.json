@@ -2,7 +2,14 @@
   "name": "@gutenye/commander-completion-carapace",
   "version": "1.0.0",
   "description": "Effortlessly add intelligent autocomplete support to your Commander.js CLI app using Carapace. Supports Bash, Zsh, Fish, Nushell and more",
-  "keywords": ["commander", "commanderjs", "completion", "carapace"],
+  "keywords": [
+    "commander",
+    "commanderjs",
+    "carapace",
+    "completion",
+    "autocomplete",
+    "complete"
+  ],
   "license": "MIT",
   "repository": "github:gutenye/commander-completion-carapace",
   "type": "module",
