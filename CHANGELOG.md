@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.2...v1.0.3) (2024-12-26)
+
+### Bug Fixes
+
+* update description ([cce1a04](https://github.com/gutenye/commander-completion-carapace/commit/cce1a04644e635d856443623b934f11cb825be6f))
+
 ## [1.0.2](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.1...v1.0.2) (2024-12-26)
 
 ### Bug Fixes
