@@ -8,7 +8,11 @@
     "carapace",
     "completion",
     "autocomplete",
-    "complete"
+    "complete",
+    "bash",
+    "zsh",
+    "fish",
+    "nushell"
   ],
   "license": "MIT",
   "repository": "github:gutenye/commander-completion-carapace",
