@@ -1,13 +1,12 @@
 import { merge } from 'lodash-es'
 import invariant from 'tiny-invariant'
 import * as yaml from 'yaml'
-import { program as defaultProgram } from '#/NewCommand'
 import { CARAPACE_SPECS_DIR } from '#/constants'
 import type { Carapace, NewCommand } from '#/types/index'
 import { fs, logger, mergeWithoutNull, question } from '#/utils/index'
 
-export async function installCompletion(program = defaultProgram) {
-  if (!program._installCompletion) {
+export async function installCompletion(program: NewCommand) {
+  if (!program._enableCompletion) {
     return
   }
 
@@ -21,7 +20,7 @@ export async function installCompletion(program = defaultProgram) {
     if (content === text) {
       return
     }
-    if (!program._installCompletion.overwrite) {
+    if (!program._enableCompletion.overwrite) {
       const answer = await question(
         `Overwrite completion file '${path}'? [y/n] `,
       )

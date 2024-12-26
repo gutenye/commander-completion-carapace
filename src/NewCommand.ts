@@ -1,18 +1,23 @@
 import { Command as BaseCommand } from 'commander'
+import { installCompletion } from './installCompletion'
 
-const DEFAULT_OPTIONS: InstallCompletionOptions = {
+const DEFAULT_OPTIONS: EnableCompletionOptions = {
   overwrite: true,
 }
 
 export class NewCommand extends BaseCommand {
-  _installCompletion?: InstallCompletionOptions
+  _enableCompletion?: EnableCompletionOptions
   _completion?: CompletionOptions
   _carapace?: CarapaceOptions
   commands: NewCommand[] = []
 
-  installCompletion(options = {}) {
-    this._installCompletion = { ...DEFAULT_OPTIONS, ...options }
+  enableCompletion(options = {}) {
+    this._enableCompletion = { ...DEFAULT_OPTIONS, ...options }
     return this
+  }
+
+  async installCompletion() {
+    return installCompletion(this)
   }
 
   completion(options = {}) {
@@ -30,7 +35,7 @@ export class NewCommand extends BaseCommand {
   }
 }
 
-type InstallCompletionOptions = {
+type EnableCompletionOptions = {
   overwrite?: boolean
 }
 

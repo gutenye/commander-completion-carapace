@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./example/cli.ts "$@"
+

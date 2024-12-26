@@ -138,7 +138,7 @@ describe('installCompletion', () => {
 
   it('overwrites', async () => {
     const program = new Command()
-    program.name('hello').installCompletion()
+    program.name('hello').enableCompletion()
     program.command('cmd1')
     await installCompletion(program)
     expect(await fs.readFile(specFile, 'utf8')).toEqual(
@@ -176,9 +176,8 @@ commands:
 
   it('skips if no commands', async () => {
     const program = new Command()
-    program.name('hello').installCompletion()
+    program.name('hello').enableCompletion()
     await installCompletion(program)
-    const path = `${CARAPACE_SPECS_DIR}/hello.yaml`
     expect(await fs.pathExists(specFile)).toBeFalsy()
   })
 })
