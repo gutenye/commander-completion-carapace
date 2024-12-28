@@ -40,7 +40,6 @@ program
 program.command('cmd1 [...files]')
   .description('Description')
   .option('--option1', 'Description')
-  .addOption(new Option('--option2 <size>', 'Description').choices(['small', 'medium']))
   .completion({   // pass to carapace 
     positonalany: ['$files'] // dynamic completion
   })
