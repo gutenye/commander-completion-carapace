@@ -21,7 +21,12 @@
     "bun": "./src/index.ts",
     "default": "./build/index.js"
   },
-  "files": ["src", "tsconfig.json", "build", "!**/__tests__"],
+  "files": [
+    "src",
+    "tsconfig.json",
+    "build",
+    "!**/__tests__"
+  ],
   "scripts": {
     "test": "bun test",
     "lint": "biome check --fix",
@@ -38,7 +43,7 @@
     "yaml": "^2.6.1"
   },
   "peerDependencies": {
-    "commander": "^12.1.0"
+    "commander": "^13 || ^12.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
