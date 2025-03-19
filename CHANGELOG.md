@@ -1,3 +1,9 @@
+## [1.0.8](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.7...v1.0.8) (2025-03-19)
+
+### Bug Fixes
+
+* add commander ^13 to peerDependencies ([f243143](https://github.com/gutenye/commander-completion-carapace/commit/f243143cae0dfba4447dc0094c1cba9755dc1eab))
+
 ## [1.0.7](https://github.com/gutenye/commander-completion-carapace/compare/v1.0.6...v1.0.7) (2024-12-26)
 
 ### Bug Fixes
