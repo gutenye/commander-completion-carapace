@@ -41,7 +41,7 @@ program.command('cmd1 [...files]')
   .description('Description')
   .option('--option1', 'Description')
   .completion({   // pass to carapace 
-    positonalany: ['$files'] // dynamic completion
+    positionalany: ['$files'] // dynamic completion
   })
   .action(() => {})
 
