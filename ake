@@ -1,21 +1,11 @@
-#!/usr/bin/env script.js
+#!/usr/bin/env bun
 
-await mixins('package-manager', 'test')
+import { app, $ } from "@gutenye/script.js";
 
-globalThis.PACKAGE_MANAGER = 'bun'
-
-const HELP = ''
-
-app
-  .name(PROJECT_NAME)
-  .installCompletion({ overwrite: true })
-  .addHelpText('after', HELP.trimEnd())
-
-app
-  .name('build')
-  .description('build the project')
-  .action(async () => {
-    rm('build')
-    await $`bun run tsc --project tsconfig.build.json`
-    await $`bun run tsc-alias --project tsconfig.build.json`
-  })
+app.cmd("build", "Build the project").add(async () => {
+  await $`
+    rm -rf build
+    bun run tsc --project tsconfig.build.json
+    bun run tsc-alias --project tsconfig.build.json
+  `;
+});
